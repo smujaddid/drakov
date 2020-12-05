@@ -1,6 +1,6 @@
 {
-  "name": "drakov",
-  "version": "2.0.1",
+  "name": "@smujaddid/drakov",
+  "version": "2.1.0",
   "description": "Mock server that implements the API Blueprint specification",
   "main": "./index.js",
   "bin": {
@@ -10,17 +10,17 @@
     "test": "grunt",
     "release": "release-it"
   },
-  "homepage": "https://github.com/aconex/drakov",
+  "homepage": "https://github.com/smujaddid/drakov",
   "author": {
     "name": "Yakov Khalinsky",
     "email": "ykhalinsky@aconex.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aconex/drakov.git"
+    "url": "https://github.com/smujaddid/drakov.git"
   },
   "bugs": {
-    "url": "https://github.com/aconex/drakov/issues"
+    "url": "https://github.com/smujaddid/drakov/issues"
   },
   "engines": {
     "node": ">= 0.12"
@@ -30,7 +30,7 @@
     "async": "^2.1.4",
     "chokidar": "^3.4.3",
     "colors": "^1.1.0",
-    "drafter": "^1.2.0",
+    "drafter.js": "^2.6.7",
     "express": "^4.16.4",
     "glob": "^7.1.1",
     "http-shutdown": "^1.2.0",
@@ -39,7 +39,7 @@
     "pug": "^2.0.4",
     "qs": "^6.3.0",
     "tv4": "^1.1.9",
-    "yargs": "^16.1.0"
+    "yargs": "^16.1.1"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
@@ -47,7 +47,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-simple-mocha": "^0.4.0",
-    "release-it": "^14.2.1",
+    "release-it": "^14.2.2",
     "supertest": "^3.0.0"
   }
 }
