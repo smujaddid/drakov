@@ -1,10 +1,6 @@
 # Drakov API Blueprint Mock Server
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Aconex/drakov?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-    
-[![npm version](https://badge.fury.io/js/drakov.svg)](http://badge.fury.io/js/drakov) [![Build Status](https://travis-ci.org/Aconex/drakov.svg)](https://travis-ci.org/Aconex/drakov)
-
-![Drakov](drakov.png)
+[![npm version](https://badge.fury.io/js/%40smujaddid%2Fdrakov.svg)](https://badge.fury.io/js/%40smujaddid%2Fdrakov)
 
 Mock server that implements the [API Blueprint](http://apiblueprint.org/) specification:
 
