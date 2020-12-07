@@ -8,6 +8,8 @@
 
 Mock server that implements the [API Blueprint](http://apiblueprint.org/) specification:
 
+## Fork notes
+This is a fork of [Drakov](https://github.com/Aconex/drakov) that changes the dependency of Drafter package from [drafter](https://www.npmjs.com/package/drafter) to [drafter.js](https://www.npmjs.com/package/drafter.js). This changes will avoid the installation of Protagonist which often takes time and prone to installation failure. This means that we are using the slower and pure JavaScript implementation of Drafter, that is [drafter.js](https://www.npmjs.com/package/drafter.js).
 
 ## Community
 
@@ -40,7 +42,7 @@ When flag `--debugMode` is set on Drakov's start up all mismatching requests wil
 
 ## Installation instructions
 
-`npm install -g drakov`
+`npm install -g @smujaddid/drakov`
 
 
 ## Running
